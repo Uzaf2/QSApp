@@ -1,0 +1,52 @@
+@import "styles/site-mixins";
+
+.admin-login-page {
+  background: url(../logo.jpeg) no-repeat top center fixed;
+  @include prefix(background-size, cover, webkit moz ms);
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+// Full page background color
+div.App {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 100%;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: $admin-bg;
+}
+
+@media screen and (max-width: 512px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+
+  div.App {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
