@@ -1,5 +1,6 @@
-### This is a simple question and answer application created by me taking inspiration from question and answer applications may online
-furthermore for this project i have used Create React App, as it makes the purpose of making the application scaffolding relatively easy.
+#### This is a simple question and answer application created by me taking inspiration from question and answer applications available  online.Furthermore for this project i have used Create React App, as it makes the purpose of making the application scaffolding relatively easy.
+
+#### Furthermore, i would be furthering the application, as i would be refining my skills React more, HTML and CSS.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
