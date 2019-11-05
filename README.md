@@ -1,4 +1,4 @@
-# This is a simple question and answer application created by me taking inspiration from question and answer applications may online
+### This is a simple question and answer application created by me taking inspiration from question and answer applications may online
 furthermore for this project i have used Create React App, as it makes the purpose of making the application scaffolding relatively easy.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
